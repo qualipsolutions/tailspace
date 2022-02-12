@@ -2,7 +2,7 @@ import TabNav from './components/TabNav';
 
 export function Index() {
   return (
-    <div id="tailwind-root">
+    <div>
       <TabNav
         tabs={[
           { name: 'Details', href: '#pablo', current: true },
